@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab1074036db7e16786220ef4b68c626b2dc2d4607b7cf6c3d3cc4a840bc01c56
-size 2118
+field,field_description
+probe_asn,"the Autonomous system number of the probe in the format ""ASXXX"""
+dns_resolved_ips,IP address of the DNS server of the website
+input,The input (for example a URL or IP address) to search measurements for
+domain,The domain to search measurements for
+measurement_start_time,"The start date of when measurements were run (ex. ""2016-10-20T10:30:00"")"
+report_id,"The report_id to search measurements for. On OONI Explorer, one is able to search for measurements in this format: “https://explorer.ooni.org/measurement/<report_id>?input=<input>”"
+dns.bogon,a bogon IP address was returned
+dns.confirmed,one of the returned IPs matches an IP known to be used to implement blocking
+dns.inconsistent,our DNS consistency heuristics determined the returned IP to be inconsistent
+dns.no_ipv4,no IPv4 address was returned
+dns.nxdomain,"we got an NXDOMAIN response from the probe, but we got a valid response from the control vantage point"
+http.confirmed,the returned page is a known blockpages
+http.body.confirmed,the http body of returned page is a known blockpages
+http.connection_closed,the connection was closed before all data was transmitted
+http.connection_reset,we got a connection reset to a plaintext HTTP request
+http.connection_timeout,the connection timed out before we could retrieve all the data
+http.generic_failure,this is an generic error from legacy OONI probes
+http.http_diff,the page doesn't match based on our page consistency heuristics
+invalid,unknown failures
+ok,Successful measurements (i.e. NO sign of internet censorship)
+tcp.connection_reset,the TCP connect test failed due to a reset packet
+tcp.connection_timeout,the TCP connect test failed with a timeout
+tls.connection_closed,the connection was closed after the ClientHello
+tls.connection_reset,a reset packet was seen after the client sent the ClientHello packet
+tls.connection_timeout,the connection timed out after the ClientHello
+tls.generic_failure,generic error from legacy OONI probes
+tls.mitm,"The DNS is consistent, but the TLS certificate validation failed. This suggest a TLS man-in-the-middle"
