@@ -11,6 +11,7 @@ The 2023 report covers OONI data, for a period of 1 year from 1 July 2022 to 30 
 - *2023-iMAP-Instant-messaging-and-circumvention-tools*
 - *2023-iMAP-Web-connectivity*
 
+Raw data can be downloaded using https://github.com/ooni/data/tree/main/oonidata
 
 # 2022 reports
 
