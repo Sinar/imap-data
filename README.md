@@ -1,5 +1,10 @@
 iMAP State of Internet Censorship data prepared for the reports available on https://imap.sinarproject.org/.
 
+# 2024 reports
+The 2024 report covers OONI data, for a period of 1 year from 1 July 2023 to 30 June 2024, as well as 10 countries: Cambodia, Hong Kong (China), India, Indonesia, Malaysia, Myanmar, Philippines, Thailand, Timor-Leste and Vietnam. 
+
+Note: Country-specific Jupyter notebooks were used on OONI's virtual machines (previously oonidata.ooni.org, now notebook.ooni.org) where you may contact [OONI team](https://ooni.org/about/#contact) for more information.
+
 
 # 2023 reports
 
